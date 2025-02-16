@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body { font-family: "poppins" , sans-serif;
+    }
+
+.boxed {
+        margin : 100px auto;
+        max-width: 800px ;
+       
+    }
+
+    .cover 
+     {
+        width: 100%;
+        max-width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+  
+    
+     p {  margin: 20px 0;
+        line-height: 2;
+
+     }
+    
+
+
+     h1 {
+        text-wrap: balance;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.15;
+   
+         
+     }
+
+      h2 { font-size: 1.5rem;
+         position: relative;
+ 
+     }
+     h3 { font-size: 1rem;
+
+     }
+
+     h2, h3 {
+        margin : 30px 0;
+     }
+
+      /* .single est un second nom de la classe boxe mais pas collé qui agit donc sur le stron */
+     .single p strong {
+        background-color: #00000021;
+         color: rgb(145 94 39);
+         padding: 3px 10px;
+         margin-inline: 5px;
+
+     }
+
+
+
+     h2  ::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 42%;
+        height: 2px;
+        background-color: #369b0e21; 
+        z-index: -1;
+     }
+
+     
+
+     /* list-style-position: inside; permet de mettre les listes au sein du paragraphe */
+
+     /* width: fit-content; permet de limiter la hauteur la couleur du backgroun */
+     .single ul {
+        list-style-position: inside;
+     }
+     .single ul {
+        list-style-position: inside;
+        line-height: 2;
+       background-color: #c4e7db;
+       width: fit-content;
+
+    }
+
+    .single a { color: green;
+     
+
+    }
